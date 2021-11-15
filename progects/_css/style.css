@@ -1,0 +1,127 @@
+*{
+    margin-top: 0;
+}
+
+body{
+	margin:0;
+	background-color:orange;
+	font-family:Verdana;
+	direction:ltr;	
+}
+
+.all_site{
+	max-width:960px;
+	background-color:white;
+	margin:0 auto;
+	min-height:500px;
+        overflow: hidden;
+        padding: 10px;
+}
+
+header{
+    width:100%;
+    min-height: 80px;
+    border:1px solid gray;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.main{
+    width:100%;
+    min-height: 80px;
+    border:1px solid gray;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.main .left_side{
+    width:68%;
+    min-height: 80px;
+    border:1px solid gray;
+    box-sizing: border-box;
+    overflow: hidden;
+    float:left;
+}
+
+.main .box_movie{
+    width:50%;
+    min-height: 80px;
+    
+    box-sizing: border-box;
+   overflow: hidden;
+    float:left;
+    position: relative;
+}
+
+.main .box_movie img{
+    width: 100%;
+    float:left;
+	transition:1s;
+}
+
+.main .box_movie img:hover{
+   	transform:scale(1.1,1.1);
+    float:left;
+	transition:1s;
+}
+
+.main .box_movie h2{
+    width:100%;
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    bottom:25%;
+    color:white;
+    text-align: center;
+}
+
+.main .box_movie button{
+    width:100%;
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    bottom:21%;
+    left:0;
+    color:white;
+    text-align: center;
+    border: none;
+    font-size: 1.2em;
+}
+
+.main .right_side{
+    width:30%;
+    min-height: 200px;
+    border:1px solid gray;
+    box-sizing: border-box;
+    overflow: hidden;
+    float:right;
+}
+
+.main .right_side a{
+    display: block;
+    width:100%;
+    height: 80px;
+    line-height: 80px;
+    background-color: black;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    font-size: 1.3em;
+    transition: 0.4s;
+}
+
+.main .right_side a:hover{
+    background-color: silver;
+    color: black;
+}
+
+footer{
+    width:100%;
+    height: 80px;
+    border:1px solid gray;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
